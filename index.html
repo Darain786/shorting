@@ -34,7 +34,7 @@
             var format=document.getElementById("format")
            icon.className=(icon.className=="bi bi-sort-alpha-down")?"bi bi-sort-alpha-up":"bi bi-sort-alpha-down";
            (icon.className=="bi bi-sort-alpha-down")?Ascending():Descending();
-           format.innerHTML=(format.innerHTML=="Ascending Format")?"Descending Format":"Ascending Format"
+           format.innerHTML=(format.innerHTML=="Ascending Format")?"Descending Order":"Ascending Order"
         }
         function bodyload(){
             Ascending()
@@ -47,7 +47,7 @@
             <button class="btn btn-primary w-100 mb-3"onclick="ShortClick()">
                 <span class="bi bi-sort-alpha-down"id="icon"></span>
             </button><br>
-            <h3 id="format">Ascending Format</h3>
+            <h3 id="format">Ascending Order</h3>
             <ol class="fw-bold"></ol>
             
         </div>
